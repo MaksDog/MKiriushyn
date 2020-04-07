@@ -1,0 +1,260 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #f5f7fa;
+  padding: 20px;
+  width: 1280px;
+  height: 1399px;
+}
+
+.main-container {
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+}
+
+aside a {
+  color: #ffffff;
+  opacity: 0.6;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+aside {
+  background: #1e2939;
+  width: 370px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #ffffff;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.img {
+  box-sizing: border-box;
+}
+
+.contacts-container {
+  box-sizing: border-box;
+  margin-left: 40px;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+.contacts-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.contacts-link-type {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-right: 10px;
+}
+
+.tech-skill-container {
+  margin-top: 55px;
+  box-sizing: border-box;
+  margin-left: 40px;
+}
+.tech-skill-title {
+  width: 121px;
+  height: 17px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.tech-skill-item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+
+  margin-left: 15px;
+  color: #ff6b08;
+}
+.tech-skill-text {
+  color: #d8dadd;
+}
+
+.soft-skill-container {
+  margin-top: 55px;
+  margin-left: 40px;
+  box-sizing: border-box;
+}
+.soft-skill-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.soft-skill-item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 15px;
+  color: #ff6b08;
+}
+.soft-skill-text {
+  color: #d8dadd;
+}
+
+.about-container {
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
+.current-job {
+  padding-bottom: 25px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.name {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 89px;
+  width: 341px;
+  height: 45px;
+}
+.character {
+  margin-top: 25px;
+  margin-bottom: 65px;
+  margin-right: 330px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #595959;
+  width: 413px;
+  height: 107px;
+}
+
+.project-container {
+  margin-right: 255px;
+}
+.project-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+.project-container ol {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-left: 16px;
+}
+.project-item-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #595959;
+}
+.project-item a {
+  color: #595959;
+  text-decoration: none;
+}
+
+.work-experience-container {
+  margin-top: 52px;
+}
+
+.work-experience-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 18px;
+}
+
+.company1-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+.colour-orange {
+  color: #ff6b08;
+}
+.company-date {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #a8a8a8;
+  margin-bottom: 15px;
+}
+.company-general-text1 {
+  width: 535px;
+  height: 38px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #595959;
+  margin-left: 16px;
+  margin-bottom: 10px;
+}
+.company-general-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #595959;
+  margin-left: 16px;
+}
+
+.company2-title {
+  margin-top: 25px;
+}
+.company-general-text3 {
+  width: 534px;
+  height: 38px;
+  color: #595959;
+  margin-left: 16px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.company3-title {
+  margin-top: 31px;
+  margin-bottom: 14px;
+}
+
+.education-conteiner {
+  margin-top: 55px;
+}
+.education-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 21px;
+}
+.colour-orange1 {
+  color: #ff6b08;
+  margin-bottom: 15px;
+}
+.univer-group {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 14px;
+}
+.company-date1 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #a8a8a8;
+  margin-bottom: 107px;
+}
