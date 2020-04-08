@@ -15,7 +15,6 @@ body {
   background: #ffffff;
   display: flex;
   flex-direction: row;
-  width: 1200px; /*Была уже пропиана ширина*/
   max-width: 1200px;
   margin: 0 auto;
   box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
